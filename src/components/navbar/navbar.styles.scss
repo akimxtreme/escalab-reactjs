@@ -1,0 +1,23 @@
+.navbar {
+    float: right;
+    padding: 1em 0px 0px 0px;
+    .option {
+        font-family: 'Ceviche One', cursive;
+        border-radius: 0px;
+        padding: 0.5em;
+        margin: 0 8px;
+        display: inline-block;
+        border: 3px solid #E5D900;
+        color: #E5D900;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 25px;
+        box-shadow: -5px 5px 0px #a62520;
+        &:hover {
+            color: #a62520;
+            //border-color:#a62520;
+            background-color:#E5D900;
+            box-shadow: -5px 5px 0px #a62520;
+        }
+    }
+}
