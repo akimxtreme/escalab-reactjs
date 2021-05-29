@@ -1,0 +1,98 @@
+.characters {
+        background-color: transparent;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        //repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 2% 4%;
+        .character {
+            display: inline-block;
+            border: 4px solid #a62520;
+            color: #E5D900;
+            border-radius: 0px;
+            background-color: rgba(229,217,0,0.9);
+            > img {
+                border-bottom: 4px solid #a62520;
+                border-top: 0px solid #a62520;
+                width: 100%;
+                display: block;
+            }
+            .info {
+                padding: 0.5em 1em;
+                text-align: center;
+                margin: 0;
+                img {
+                    max-width: 28px;
+                }
+                h2 {
+                    font-family: 'Ceviche One', cursive;
+                    text-transform: uppercase;
+                    font-weight: lighter;
+                    margin: 0;
+                    font-size: 30px;
+                    color: #000;
+                }
+                p {
+                    color: #a62520;
+                    font-family: 'Ceviche One', cursive;
+                    text-transform: uppercase;
+                    font-weight: lighter;
+                    margin: 5px 0px;
+                    font-size: 23px;
+                    b {
+                        font-size: 18px;
+                        color: #000;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            &:hover {
+                cursor: pointer;
+                background-color: #000;
+                border: 4px solid rgba(229,217,0,0.9);
+                box-shadow: -5px 5px 0px #a62520;
+                > img {
+                    border-bottom: 4px solid rgba(229,217,0,0.9);
+                }
+                .info {
+                    h2 {
+                        color: rgba(229,217,0,0.9);
+                    }
+                    p {
+                        color: rgba(229,217,0,0.9);
+                        b {
+                            color: #FFF;
+                        }
+                    }
+                }
+            }
+        }
+}
+
+@media all and (max-width: 980px) {
+    .characters {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1% 4%;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .characters {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0.5% 4%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .characters {
+        grid-template-columns: repeat(1, 1fr);
+        .character {
+            width: 75%;
+            margin: auto;
+            .info {
+                img {
+                    max-width: 40px;
+                }
+            }
+        }
+    }
+}

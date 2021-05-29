@@ -13,3 +13,12 @@
         }
     }
 }
+
+@media all and (max-width: 500px) {
+    .header {
+        .logo-container {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

@@ -20,4 +20,14 @@
             box-shadow: -5px 5px 0px #a62520;
         }
     }
+    .option-last {
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .navbar {
+        width: 100%;
+        text-align: center;
+    }
 }
