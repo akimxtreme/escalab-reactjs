@@ -83,3 +83,43 @@
         }
     }
 }
+
+
+
+@media all and (max-width: 768px) {
+    .episodes {
+        grid-gap: 0.5% 4%;
+        .episode {
+            .info {
+                grid-template-columns: 2fr 6fr;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 580px) {
+    .episodes {
+        .episode {
+            .info {
+                grid-template-columns: 3fr 6fr;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 480px) {
+    .episodes {
+        .episode {
+            .info {
+                grid-template-columns: 1fr;
+                .desc {
+                    border-left: none;
+                    padding-left: 0;
+                    h2 {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

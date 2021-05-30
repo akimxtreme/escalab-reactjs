@@ -29,5 +29,24 @@
     .navbar {
         width: 100%;
         text-align: center;
+        .option {
+            font-size: 21px;
+        }
+    }
+}
+
+@media all and (max-width: 400px) {
+    .navbar {
+        .option {
+            font-size: 17px;
+        }
+    }
+}
+
+@media all and (max-width: 460px) {
+    .navbar {
+        .option {
+            font-size: 15px;
+        }
     }
 }
