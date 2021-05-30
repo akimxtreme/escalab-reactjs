@@ -10,11 +10,13 @@
 
 * Version de Node: v12.18.2
 
-# Instrucciones para Levantar el Proyecto
+# Instrucciones para Levantar el Proyecto en Local
 
 * Debes tener el ambiente de node instalado en tu sistema operativo.
 
 * Ejecutar el comando npm install para instalar los paquetes que se encuentran descritos en el package.json
 
 * Levantar el servidor con el comando npm start
+
+* Debes tener conexión a internet ya que se comunica con una API REST externa
 
