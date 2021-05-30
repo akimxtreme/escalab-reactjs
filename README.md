@@ -2,7 +2,7 @@
 
 * Proyecto Final ReactJS
 
-* Descripción: El proyecto esta en una biblioteca de información de la seria de los X-MEN, contiene información básica de los personajes además de la descripción de cada unos de los episodios.
+* Descripción: El proyecto se basa en un website de la serie de los X-MEN, contiene información básica de los personajes además de la descripción de cada unos de los episodios. Los estilos fueron basados en colores y fuentes de comics.
 
 # Versiones de React y Node
 
