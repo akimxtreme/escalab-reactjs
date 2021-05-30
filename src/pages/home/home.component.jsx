@@ -4,6 +4,7 @@ import ListCharacters from '../../components/list-characters/list-characters.com
 
 const HomePage = () => (
     <div className="home">
+        <h1 className="title">Characters</h1>
         <ListCharacters/>
     </div>
 );

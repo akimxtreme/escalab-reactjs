@@ -23,7 +23,7 @@ const ListCharacters = ({group=['X-Men','Acolytes','Team X','X-Force','Friends o
                return (<div className="character" key={`character-${character.id}`}>
                     <img src={character.img} alt={character.name} />
                     <div className="info">
-                        <img src={logo} alt={character.name} />
+                        <img src={logo} alt="Xmen Symbol" />
                         <h2>{group[0]} lll{ (character.alias === '' ? character.name : character.alias) }</h2>
                         <p><b>Name</b></p>
                         <p>{character.name}</p>
