@@ -1,8 +1,6 @@
 .characters {
-        background-color: transparent;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        //repeat(auto-fill, minmax(200px, 1fr));
         grid-gap: 2% 4%;
         .character {
             display: inline-block;

@@ -4,7 +4,9 @@ import './App.css';
 
 // Pages
 import HomePage from './pages/home/home.component';
-import CharacterPage from './pages/character/character.component'
+import EpisodesPage from './pages/episodes/episodes.component';
+import XmenPage from './pages/xmen/xmen.component';
+import EvilPage from './pages/evil-group/evil-group.component';
 
 // Components
 import Header from './components/header/header.component';
@@ -18,34 +20,14 @@ class App extends React.Component {
         <div className="content">
           <Switch>
             <Route exact path="/" component={HomePage} />
-            <Route path="/character" component={CharacterPage} />
+            <Route path="/evil-group" component={EvilPage} />
+            <Route path="/x-men" component={XmenPage} />
+            <Route path="/episodes" component={EpisodesPage} />
           </Switch>
         </div>
       </div>
     );
   }
 }
-/*
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-*/
 
 export default App;

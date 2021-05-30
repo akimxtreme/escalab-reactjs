@@ -24,3 +24,14 @@ html{
     margin: 0;
 }
 
+
+h1.title {
+    margin: 0;
+    padding: 0 0 1em 0;
+    display: block;
+    width: 100%;
+    font-family: 'Ceviche One', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+}
