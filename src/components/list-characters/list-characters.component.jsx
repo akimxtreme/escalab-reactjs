@@ -24,7 +24,7 @@ const ListCharacters = ({group=['X-Men','Acolytes','Team X','X-Force','Friends o
                     <img src={character.img} alt={character.name} />
                     <div className="info">
                         <img src={logo} alt="Xmen Symbol" />
-                        <h2>{group[0]} lll{ (character.alias === '' ? character.name : character.alias) }</h2>
+                        <h2>{group[0]} { (character.alias === '' ? character.name : character.alias) }</h2>
                         <p><b>Name</b></p>
                         <p>{character.name}</p>
                         <p><b>Ability</b></p>
