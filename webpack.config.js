@@ -49,7 +49,7 @@ module.exports = {
         maxEntrypointSize: 580000,
         maxAssetSize: 580000,
     },
-    //devtool (dev) : 'eval-change-module-source-map'
+    //devtool (dev) : 'eval-cheap-module-source-map'
     devtool: 'source-map',
     devServer: {
         contentBase: path.join(__dirname,'public'),
