@@ -10,7 +10,7 @@ const ListEpisodes = () => {
         fetch(getEpisodes)
         .then(res => res.json())
         .then(data => {
-            console.log(data.results);
+            //console.log(data.results);
             setEpisodes(data.results);
         })
         .catch(err => console.log(err));
